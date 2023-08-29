@@ -10,6 +10,7 @@
 
   <script type="text/javascript" defer>
     var index = 1
+    var maxPages = 2
     function iframeLoaded() {
       var iFrameID = document.getElementById('iframe');
       if (iFrameID) {
@@ -22,7 +23,7 @@
       console.log('kkk')
       var iFrameID = document.getElementById('iframe');
       if (iFrameID) {
-        if (index < 2) {
+        if (index < maxPages) {
           index++
           iFrameID.src = index + '.html'
         }
@@ -38,8 +39,6 @@
         }
       }
     }
-
-
 
     function ok() {
       var timer = document.getElementById('timer');
@@ -64,23 +63,6 @@
 
       interval = setInterval(updateTime, 1000);
     }
-
-    // pauseBtn.addEventListener('click', () => {
-    //   clearInterval(interval);
-    //   startBtn.disabled = false;
-    //   pauseBtn.disabled = true;
-    // });
-
-    // resetBtn.addEventListener('click', () => {
-    //   clearInterval(interval);
-    //   seconds = 0;
-    //   minutes = 0;
-    //   hours = 0;
-    //   timer.textContent = '00:00:00';
-    //   startBtn.disabled = false;
-    //   pauseBtn.disabled = true;
-    //   resetBtn.disabled = true;
-    // });
   </script>
 
 </head>
