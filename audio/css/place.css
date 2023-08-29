@@ -244,3 +244,9 @@
     height: 30px;
     background: #785a95;
 }
+
+iframe {
+    width: 100%;
+    overflow: hidden;
+    border: none;
+}
