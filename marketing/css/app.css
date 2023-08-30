@@ -8,9 +8,6 @@ h2	{
     padding: 14px;
     border-radius: 10px;
 }
-.footer__content{
-    min-width: 60px;
-}
 
 .container {
     max-width: 1280px;
@@ -185,12 +182,9 @@ h2	{
     padding: 40px;
 }
 .head__content{
-	 border-right: 2px solid #cecece;
+	border-right: 2px solid #cecece;
     padding-right: 30px;
     font-size: 20px;
-    color: #5a335a;
-	
-	
 }
 
 .quiz__footer {
@@ -198,7 +192,6 @@ h2	{
     color: #fff;
     padding: 10px;
     font-weight: 700;
-	width-left: 0px;
 }
 
 .place__body {
@@ -256,30 +249,6 @@ h2	{
     background: #785a95;
 }
 
-.button
-{
-	box-shadow: 0px 0px 7px #cecece;
-	text-align:center;
-    min-width: 450px; 
-	height: 30 px;
-    margin: 15px 10px;
-    border-radius: 10px;
-    border-color: white;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px 100px;
-    font-size: 14pt;
-    color: #5a335a;
-	position: relative;
-	width: 5em; 
-	white-space: pre-line;
-left: 50%;
-transform: translate(-50%, 0);
-	
-white-space:normal !important;
-    word-wrap:break-word;
-}
-
 .buttons__content> div {
     box-shadow: 0px 0px 7px #cecece;
     width: 500px;
@@ -305,4 +274,14 @@ white-space:normal !important;
 .button_passive
 {
 	background: #B3B3B3;
+}
+
+.buttonscontent {
+    display: grid;
+}
+
+.buttonscontent > button {
+    background: #fff;
+    margin: 10px 0px;padding: 10px;
+    cursor: pointer;
 }
