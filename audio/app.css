@@ -258,17 +258,23 @@ h2	{
 
 .button
 {
-	box-shadow: 0px 0px 15px #cecece;
-    min-width: 500px;
-    height: 75px;
-    margin: 50px 10px;
+	box-shadow: 0px 0px 7px #cecece;
+	text-align:center;
+    min-width: 450px; 
+	height: 30 px;
+    margin: 15px 10px;
     border-radius: 10px;
     border-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 20px 100px;
-    font-size: 17pt;
+    font-size: 14pt;
     color: #5a335a;
+	position: relative;
+	width: 5em; 
+	white-space: pre-line;
+left: 50%;
+transform: translate(-50%, 0);
 	
 white-space:normal !important;
     word-wrap:break-word;
