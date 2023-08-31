@@ -8,6 +8,7 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta name="HandheldFriendly" content="true"/>
+		<link rel="stylesheet" href="css/font.css">
 	</head>
 	<body>
   <a href="index.html" class="back">Назад</a>
@@ -37,24 +38,14 @@
 						</div>
 					</div>
 
-					<style>
-						.buttons__content {
-							display: grid;
-						}
-
-						.buttons__content > button {
-							background: #fff;
-							margin: 10px 0px;padding: 10px;
-							cursor: pointer;
-						}
-					</style>
-
 					
 				</div>
-            <button class="place__btn">Далее</button>
+            <button class="place__btn" id="nextButton">Далее</button>
            </div>
            <div class="place__line">
-              <div class="timer">00:00</div>
+              <div class="timer">
+			  <p id="timer"><span id="minutes">00</span>:<span id="seconds">00</span></p>
+			  </div>
               <!-- <button class="place__back">На шаг назад</button>
               <button class="place__back">Ответить</button>  -->
               <div></div>
