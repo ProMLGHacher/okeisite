@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-h2	{
+h2  {
     background: rgb(255, 205, 213);
     padding: 14px;
     border-radius: 10px;
@@ -82,7 +82,7 @@ h2	{
 
 .modal:target {
     opacity: 1; /* делаем окно видимым */
-	  pointer-events: auto; /* элемент видим для событий мыши */
+      pointer-events: auto; /* элемент видим для событий мыши */
     overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
 }
 
@@ -105,7 +105,7 @@ h2	{
 
 .modal1:target {
     opacity: 1; /* делаем окно видимым */
-	  pointer-events: auto; /* элемент видим для событий мыши */
+      pointer-events: auto; /* элемент видим для событий мыши */
     overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
 }
 
@@ -180,17 +180,17 @@ h2	{
     margin: 10px 0px;
 }
 .titles{
-	background: #fff;
+    background: #fff;
     box-shadow: 1px 1px 7px #b5b5b5;
     padding: 40px;
 }
 .head__content{
-	 border-right: 2px solid #cecece;
+     border-right: 2px solid #cecece;
     padding-right: 30px;
     font-size: 20px;
     color: #5a335a;
-	
-	
+    
+    
 }
 
 .quiz__footer {
@@ -198,7 +198,7 @@ h2	{
     color: #fff;
     padding: 10px;
     font-weight: 700;
-	width-left: 0px;
+    width-left: 0px;
 }
 
 .place__body {
@@ -258,26 +258,31 @@ h2	{
 
 .button
 {
-	box-shadow: 0px 0px 15px #cecece;
-    min-width: 500px;
-    height: 75px;
-    margin: 50px 10px;
+    box-shadow: 0px 0px 7px #cecece;
+    text-align:center;
+    min-width: 450px; 
+    min-height: 35 px;
+    margin: 15px 10px;
     border-radius: 10px;
     border-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 20px 100px;
-    font-size: 17pt;
+    font-size: 14pt;
     color: #5a335a;
-	
+    position: relative;
+    white-space: pre-line;
+left: 50%;
+transform: translate(-50%, 0);
+    
 white-space:normal !important;
     word-wrap:break-word;
 }
 
 .buttons__content> div {
     box-shadow: 0px 0px 7px #cecece;
-    width: 500px;
-    height: 75px;
+    min-width: 500px;
+    min-height: 35px;
     margin: 50px 10px;
     border-radius: 10px;
     display: flex;
@@ -288,15 +293,15 @@ white-space:normal !important;
 
 .button_wrong 
 {
-	background: #EB6465;
+    background: #EB6465;
 }
 
 .button_correct
 {
-	background: #5EB97D;
+    background: #5EB97D;
 }
 
 .button_passive
 {
-	background: #B3B3B3;
+    background: #B3B3B3;
 }
