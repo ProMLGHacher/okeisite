@@ -10,7 +10,7 @@
 
   <script type="text/javascript" defer>
     var index = 1
-    var maxPages = 2
+    var maxPages = 1
     function iframeLoaded() {
       var iFrameID = document.getElementById('iframe');
       if (iFrameID) {
@@ -71,7 +71,7 @@
   <a href="../index.html" class="back">Назад</a>
   <div class="container">
     <div class="block">
-      <iframe id="iframe" onload="iframeLoaded()" src="/marketing/place2/1.html"></iframe>
+      <iframe id="iframe" style="height: 1000px" onload="iframeLoaded()" src="1.html"></iframe>
       <div class="">
         <button class="place__btn" onclick="next()">Далее</button>
       </div>

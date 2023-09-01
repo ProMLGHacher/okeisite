@@ -8,6 +8,23 @@
     max-width: 1280px;
     margin: 0 auto;
 }
+/* свойства для блока, содержащего основное содержимое окна */
+.modal-body > p {
+    font-size: 28px;
+}
+
+td,th {
+    border: 1px solid #000;
+    padding: 20px;
+    font-size: 25px;
+	width: 75px;
+	height: 75px;
+}
+table {
+    table-layout: fixed;
+    width: 820px;
+}
+    
 
 .block {
     background: #fff;
